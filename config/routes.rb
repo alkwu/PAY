@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :makes
   get '/about'  => 'pages#about'
   root 'pages#home'
 
