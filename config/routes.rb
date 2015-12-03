@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :makes
+  resources :makesconts
   get '/about'  => 'pages#about'
   root 'pages#home'
 
